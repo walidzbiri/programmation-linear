@@ -22,6 +22,7 @@ On cherche x et y telles que toute les conditions sont vérifiées et en même t
 
 
 On peut visualiser le probléme de cette maniére:
+
 ![Visu](https://github.com/walidzbiri/programmation-linear/blob/main/Capture%20d%E2%80%99%C3%A9cran%20(78).png)
 ```python
 from pulp import LpMaximize, LpProblem, LpStatus, LpVariable
