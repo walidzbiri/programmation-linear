@@ -49,6 +49,7 @@ print("la valeur des variables aprés résolution")
 for var in prob.variables():
 	print(f"{var.name}: {var.value()}")
 ```
+Par défaut PuLP utilise le solver **CBC(Coin-or branch and cut)**. C'est un solver de programmation linéaire OpenSource écrit en C++. Donc en gros la plupart des librairies sont des wrappers (enveloppes) d'un code native soit C++, C ou Fortran.
 Aprés exécution du code au dessus on aura comme résultat:
 ```sh
 small-problem:
