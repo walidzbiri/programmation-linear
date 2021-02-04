@@ -29,8 +29,8 @@ from pulp import LpMaximize, LpProblem, LpStatus, LpVariable
 # Creation du probléme
 prob = LpProblem(name="small-problem", sense=LpMaximize)
 # Initialisation des variables de décision
-x = LpVariable(name="x", lowBound=0)
-y = LpVariable(name="y", lowBound=0)
+x = LpVariable(name="x", lowBound=0,cat="Integer")
+y = LpVariable(name="y", lowBound=0,cat="Integer")
 # Ajouter les contraintes au probléme
 prob += (2 * x + y <= 20, "contrainte_rouge")
 prob += (-4 * x + 5 * y <= 10, "contrainte_bleue")
@@ -62,12 +62,13 @@ contrainte_bleue: - 4 x + 5 y <= 10
 contrainte_jaune: - x + 2 y >= -2
 
 VARIABLES
-x Continuous
-y Continuous
+0 <= x Integer
+0 <= y Integer
 _______________________
 status: 1, Optimal
-Valeur de la fonction objectif: 20.7142856
-x: 6.4285714
-y: 7.1428571
+Valeur de la fonction objectif: 19.0
+la valeur des variables aprés résolution
+x: 7.0
+y: 6.0
 _______________________
 ```
