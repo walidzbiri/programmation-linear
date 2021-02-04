@@ -43,10 +43,8 @@ print("la valeur des variables aprés résolution")
 for var in prob.variables():
 	print(f"{var.name}: {var.value()}")
 ```
-
-```sh
 Aprés exécution du code au dessus on aura comme résultat:
-
+```sh
 small-problem:
 MAXIMIZE
 1*x + 2*y + 0
