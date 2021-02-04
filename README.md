@@ -12,7 +12,7 @@ La programmation linéaire est une technique d’optimisation fondamentale qui e
 ## La programmation linéaire en Python
 
 La méthode la plus populaire pour résoudre des problémes de programmation linéaire est appelée: la méthode **Simplex**.
-Il faut pas oublier de mentionner que presque toutes les bibliothèques de programmation linéaire sont natives et écrites en Fortran, C ou C++. Car la programmation linéaire nécessite un travail intensif en calcul à cause des matrices larges. Les outils Python ne sont que des wrappers autour du code C native.
+Il faut pas oublier de mentionner que presque toutes les bibliothèques de programmation linéaire sont natives et écrites en Fortran, C ou C++. Car la programmation linéaire nécessite un travail intensif en calcul à cause des matrices larges. Les outils Python ne sont que des wrappers autour d'un code native.
 Dans cet article on va utiliser la librairie: **PuLP**. 
 
 ## Exemple de résolution d'un probléme de programmation linéaire en python
