@@ -1,6 +1,6 @@
 # Probléme d'agriculteur
 
-![Poster](https://github.com/walidzbiri/programmation-linear/blob/main/1.PNG)
+![Poster](https://github.com/walidzbiri/programmation-linear/blob/main/11.PNG)
 
 
 ## Résolution du probléme en python
@@ -68,5 +68,6 @@ Donc pour maximiser son bénéfice, l’agriculteur doit consacrer:
   - 2 hectares pour le céreale P3
   - 4 hectares pour le céreale P4
   - 9 hectares pour le céreale P5
+
 Pour génerer un bénefice maximale de : 48 x 10² €
   
