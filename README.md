@@ -1,5 +1,7 @@
 # La Programmation Linéaire
 
+![Poster](https://github.com/walidzbiri/programmation-linear/blob/main/1.PNG)
+
 C'est la résolution d'un problème mathématique qui consiste à **optimiser** (maximiser ou minimiser) une fonction linéaire de plusieurs variables qui sont reliées par des relations linéaires appelées contraintes.
 
 
@@ -14,10 +16,13 @@ Il faut pas oublier de mentionner que presque toutes les bibliothèques de progr
 Dans cet article on va utiliser la librairie: **PuLP**. 
 
 ## Exemple de résolution d'un probléme de programmation linéaire en python
+![Prob](https://github.com/walidzbiri/programmation-linear/blob/main/Capture%20d%E2%80%99%C3%A9cran%20(80).png)
 
 On cherche x et y telles que toute les conditions sont vérifiées et en même temps la solution doit correspondre à la valeur maximale de z.
-On peut visualiser le probléme de cette maniére:
 
+
+On peut visualiser le probléme de cette maniére:
+![Visu](https://github.com/walidzbiri/programmation-linear/blob/main/Capture%20d%E2%80%99%C3%A9cran%20(78).png)
 ```python
 from pulp import LpMaximize, LpProblem, LpStatus, LpVariable
 # Creation du probléme
